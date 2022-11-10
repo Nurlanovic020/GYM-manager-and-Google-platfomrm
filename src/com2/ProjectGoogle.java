@@ -28,7 +28,7 @@ public class ProjectGoogle {
                     case 2:  openNewLink();  break;
                     case 3:  showNextLink(); break;
                     case 4:  System.out.println("See you soon!!!"); return;
-                    default: System.out.println("Error comand");
+                    default: System.out.println("Error command,enter again");
                 }
             }catch (Exception e){ System.out.println("Error comand!");
             scanner = new Scanner(System.in);
@@ -65,6 +65,10 @@ public class ProjectGoogle {
 
 
     }
+
+   public static void changed(){
+       System.out.println("changed");
+   }
 
 
     }
